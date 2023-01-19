@@ -11,6 +11,21 @@ body {
   box-sizing: border-box;
   padding: 3rem; }
 
+.heading__greenblue {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: linear-gradient(to right, #16c79a, #11698e, #19456b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  transition: all 200ms ease-in-out; }
+  .heading__greenblue:hover {
+    transform: rotate(1deg) skew(15deg);
+    text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.5); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto;

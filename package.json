@@ -1,0 +1,10 @@
+{
+  "name": "pizza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Qolizade",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

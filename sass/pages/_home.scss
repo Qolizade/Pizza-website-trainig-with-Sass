@@ -1,0 +1,5 @@
+.header {
+  @include respond-to(tablet) {
+    display: block;
+  }
+}

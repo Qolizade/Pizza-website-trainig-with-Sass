@@ -4,6 +4,10 @@
     padding-top: 10rem;
     display: flex;
     text-align: left;
+    @include respond-to(tablet) {
+      display: block;
+      text-align: center;
+    }
     &--image {
       width: 50%;
       border-radius: 1.3rem;

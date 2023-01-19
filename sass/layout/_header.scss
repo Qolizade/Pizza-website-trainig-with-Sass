@@ -3,14 +3,13 @@
   &__about {
     padding-top: 10rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: left;
     &--image {
-      width: 55rem;
+      width: 50%;
+      border-radius: 1.3rem;
     }
     &--paragraph {
-      width: 55rem;
+      width: 50%;
       font-size: 2rem;
       margin-left: 6rem;
       text-transform: inherit;

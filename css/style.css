@@ -26,6 +26,10 @@ body {
     transform: rotate(1deg) skew(15deg);
     text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.5); }
 
+.heading__section {
+  text-align: left;
+  color: black; }
+
 .u-bkg-white {
   background-color: #fff; }
 
@@ -116,17 +120,20 @@ body {
   .header__about {
     padding-top: 10rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: left; }
     .header__about--image {
-      width: 55rem; }
+      width: 50%;
+      border-radius: 1.3rem; }
     .header__about--paragraph {
-      width: 55rem;
+      width: 50%;
       font-size: 2rem;
       margin-left: 6rem;
       text-transform: inherit;
       line-height: 3.3rem; }
+
+body {
+  font-family: "Segoe UI",sans-serif;
+  color: #19456b; }
 
 @media only screen and (max-width: 56.25em) {
   .header {

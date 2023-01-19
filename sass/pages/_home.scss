@@ -1,3 +1,8 @@
+body{
+  font-family: "Segoe UI",sans-serif ; 
+color: $blue-color-dark;
+}
+
 .header {
   @include respond-to(tablet) {
     display: block;

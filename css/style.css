@@ -169,7 +169,8 @@ body footer {
         .footer__policy--paragraph {
           padding-bottom: 2rem; }
       .footer__copyright {
-        margin-bottom: -2rem; } }
+        margin-bottom: -2rem;
+        color: #16c79a; } }
 
 .row {
   max-width: 114rem;

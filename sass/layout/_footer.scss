@@ -4,15 +4,15 @@
   padding: 10rem 0rem;
   text-align: center;
 
-  .row{
+  .row {
     // margin: 0 3rem;
   }
 
-  &__left{
+  &__left {
     margin-left: -20rem;
   }
 
-  &__right{
+  &__right {
     margin-right: -20rem;
     margin-left: 20rem;
   }
@@ -78,6 +78,7 @@
     }
     &__copyright {
       margin-bottom: -2rem;
+      color: $green-color;
     }
   }
 }

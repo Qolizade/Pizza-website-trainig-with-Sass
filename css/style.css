@@ -11,6 +11,9 @@ body {
   box-sizing: border-box;
   padding: 3rem; }
 
+body footer {
+  margin: -3rem; }
+
 .heading__greenblue {
   font-size: 6rem;
   font-weight: 700;
@@ -114,6 +117,60 @@ body {
     text-transform: uppercase;
     border: none; }
 
+.footer {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 10rem 0rem;
+  text-align: center; }
+  .footer__left {
+    margin-left: -20rem; }
+  .footer__right {
+    margin-right: -20rem;
+    margin-left: 20rem; }
+  .footer__nav {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    font-size: 3.8rem;
+    padding-bottom: 5rem;
+    text-align: left;
+    margin-left: -4rem; }
+    .footer__nav li a {
+      color: #e7d9ea;
+      padding: 4rem; }
+  .footer__policy {
+    text-align: left;
+    font-size: 3rem; }
+    .footer__policy--title {
+      padding-bottom: 2rem;
+      text-decoration: underline; }
+    .footer__policy--paragraph {
+      font-size: 2rem;
+      line-height: 4rem;
+      font-weight: 400; }
+  .footer__address {
+    text-align: center; }
+    .footer__address--title {
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-size: 3rem; }
+  .footer__copyright {
+    margin-bottom: -5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .footer {
+      padding: 5rem 1rem; }
+      .footer__nav {
+        font-size: 3rem; }
+      .footer__policy {
+        border-right: none;
+        border-bottom: 1px solid #fff; }
+        .footer__policy--paragraph {
+          padding-bottom: 2rem; }
+      .footer__copyright {
+        margin-bottom: -2rem; } }
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -150,6 +207,8 @@ body {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
 
 .header {
   padding: 0 5rem; }
@@ -168,7 +227,7 @@ body {
       line-height: 3.3rem; }
 
 body {
-  font-family: "Segoe UI",sans-serif;
+  font-family: "Segoe UI", sans-serif;
   color: #19456b; }
 
 a {
@@ -177,3 +236,7 @@ a {
 @media only screen and (max-width: 56.25em) {
   .header {
     display: block; } }
+
+footer {
+  background-image: linear-gradient(to top, #11698e 5%, #19456b 95%);
+  color: #fff; }

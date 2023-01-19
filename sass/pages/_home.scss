@@ -1,9 +1,9 @@
-body{
-  font-family: "Segoe UI",sans-serif ; 
+body {
+  font-family: "Segoe UI", sans-serif;
   color: $blue-color-dark;
 }
 
-a{
+a {
   color: $blue-color-dark;
 }
 
@@ -11,4 +11,13 @@ a{
   @include respond-to(tablet) {
     display: block;
   }
+}
+
+footer {
+  background-image: linear-gradient(
+    to top,
+    rgba($blue-color, 1) 5%,
+    rgba($blue-color-dark, 1) 95%
+  );
+  color: $white-color;
 }

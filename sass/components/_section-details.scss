@@ -1,0 +1,18 @@
+.section-details {
+  &__items {
+    margin-top: 6rem;
+    display: flex;
+    &--image {
+      box-shadow: 0 1.5px 3px 2px rgba($black-color, 0.4);
+      width: 25rem;
+      height: 30rem;
+      border-radius: 1rem;
+    }
+    &--text {
+      font-size: 2.5rem;
+      margin-left: 5rem;
+      line-height: 3.8rem;
+      text-transform: inherit;
+    }
+  }
+}

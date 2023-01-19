@@ -29,7 +29,8 @@ body {
 .heading__section {
   text-align: left;
   color: black;
-  font-size: 2rem; }
+  font-size: 2rem;
+  padding-bottom: 6rem; }
 
 .u-bkg-white {
   background-color: #fff; }

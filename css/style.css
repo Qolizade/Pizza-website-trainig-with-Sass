@@ -158,11 +158,30 @@ body footer {
       font-size: 3rem; }
   .footer__copyright {
     margin-bottom: -5rem; }
+  @media only screen and (max-width: 75em) {
+    .footer {
+      padding: 5rem 1rem; }
+      .footer__nav {
+        font-size: 2rem; }
+      .footer__left {
+        margin-left: 0; }
+      .footer__right {
+        margin-right: 0rem;
+        margin-left: 0rem; }
+      .footer__copyright {
+        margin-bottom: 1.5rem; } }
   @media only screen and (max-width: 56.25em) {
     .footer {
       padding: 5rem 1rem; }
       .footer__nav {
         font-size: 3rem; }
+      .footer li a {
+        padding: 2rem; }
+      .footer__left {
+        margin-left: 0; }
+      .footer__right {
+        margin-right: 0rem;
+        margin-left: 0rem; }
       .footer__policy {
         border-right: none;
         border-bottom: 1px solid #fff; }
@@ -230,6 +249,11 @@ body footer {
       margin-left: 6rem;
       text-transform: inherit;
       line-height: 3.3rem; }
+  @media only screen and (max-width: 75em) {
+    .header__about--image {
+      height: 60rem; }
+    .header__about--paragraph {
+      height: 60rem; } }
 
 body {
   font-family: "Segoe UI", sans-serif;

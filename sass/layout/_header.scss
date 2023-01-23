@@ -20,4 +20,14 @@
       line-height: 3.3rem;
     }
   }
+  @include respond-to(tablet-land) {
+    &__about {
+      &--image {
+        height: 60rem;
+      }
+      &--paragraph {
+        height: 60rem;
+      }
+    }
+  }
 }

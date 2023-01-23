@@ -61,12 +61,45 @@
   &__copyright {
     margin-bottom: -5rem;
   }
+  @include respond-to(tablet-land) {
+    padding: 5rem 1rem;
+
+    &__nav {
+      font-size: 2rem;
+    }
+
+    &__left {
+      margin-left: 0;
+    }
+
+    &__right {
+      margin-right: 0rem;
+      margin-left: 0rem;
+    }
+
+    &__copyright{
+      margin-bottom: 1.5rem;
+    }
+  }
 
   @include respond-to(tablet) {
     padding: 5rem 1rem;
 
     &__nav {
       font-size: 3rem;
+    }
+
+    li a {
+      padding: 2rem;
+    }
+
+    &__left {
+      margin-left: 0;
+    }
+
+    &__right {
+      margin-right: 0rem;
+      margin-left: 0rem;
     }
 
     &__policy {

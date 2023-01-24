@@ -19,8 +19,22 @@
   }
 
   @include respond-to(tablet-land) {
-    &--image {
-      
+    &__card {
+      &--image {
+        width: 20rem;
+        height: 25rem;
+      }
+    }
+  }
+  @include respond-to(tablet) {
+    &__card {
+      &--image {
+        width: 30rem;
+        height: 35rem;
+      }
+      &--title{
+        font-size: 3rem;
+      }
     }
   }
 }

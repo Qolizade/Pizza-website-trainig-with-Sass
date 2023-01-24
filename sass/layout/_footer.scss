@@ -4,10 +4,6 @@
   padding: 10rem 0rem;
   text-align: center;
 
-  .row {
-    // margin: 0 3rem;
-  }
-
   &__left {
     margin-left: -20rem;
   }
@@ -61,11 +57,21 @@
   &__copyright {
     margin-bottom: -5rem;
   }
+
+
   @include respond-to(tablet-land) {
-    padding: 5rem 1rem;
+    padding: 5rem 2rem;
 
     &__nav {
-      font-size: 2rem;
+      font-size: 2.2rem;
+    }
+
+    li a {
+      padding: 2rem;
+
+      &:first-child {
+        padding-left: 4rem;
+      }
     }
 
     &__left {
@@ -77,8 +83,8 @@
       margin-left: 0rem;
     }
 
-    &__copyright{
-      margin-bottom: 1.5rem;
+    &__copyright {
+      margin-bottom: 1rem;
     }
   }
 
@@ -91,6 +97,7 @@
 
     li a {
       padding: 2rem;
+      font-size: 2.5rem;
     }
 
     &__left {
@@ -112,6 +119,16 @@
     &__copyright {
       margin-bottom: -2rem;
       color: $green-color;
+    }
+  }
+  @include respond-to(phone){
+    &__nav {
+      font-size: 3rem;
+    }
+
+    li a {
+      padding: .8rem;
+      font-size: 1.5rem;
     }
   }
 }

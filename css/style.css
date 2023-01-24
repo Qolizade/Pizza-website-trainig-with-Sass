@@ -297,7 +297,8 @@ body footer {
     .header__about--image {
       height: 60rem; }
     .header__about--paragraph {
-      height: 60rem; } }
+      height: 60rem;
+      overflow: hidden; } }
   @media only screen and (max-width: 56.25em) {
     .header__about {
       display: block;
@@ -307,7 +308,8 @@ body footer {
       .header__about--paragraph {
         width: 100%;
         margin-left: 0;
-        margin-top: 2rem; } }
+        margin-top: 2rem;
+        overflow: hidden; } }
   @media only screen and (max-width: 37.55em) {
     .header__about--image {
       width: 100%;
@@ -391,7 +393,7 @@ body footer {
   color: #fff;
   font-size: 2.6rem;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 1rem 2rem; }
 
 .navigation__link:hover, .navigation__link:active {
